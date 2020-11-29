@@ -96,7 +96,7 @@ def email_send_report(summary):
 
 def main(argv):
   """Process the JSON data and generate a full report out of it."""
-  data = load_data("/home/student-04-80a26181b2f9/car_sales.json")
+  data = load_data("/home/student-00-169b33d77276/car_sales.json")
   summary = process_data(data)
   # TODO: turn this into a PDF report
   pdf_generator(summary,data)
